@@ -1,0 +1,141 @@
+/* The Start of Main(Common) Styles */
+
+* {
+	padding:0px;
+	margin:0px
+}
+body {
+	background:#e5e5e5
+}
+.container {
+	width:1100px;
+	margin:auto
+}
+.error {
+	width:56%;
+	background:#f2dede;
+	border:1px solid #ebccd1;
+	border-radius:4px;
+	color:#a94442;
+	margin-top:21px;
+	padding:10px;
+	font-weight:100
+}
+
+/* The End of Main(Common) Styles */
+
+/* The Start of Login(Index), Register Page */
+
+.login, .register {
+	margin-top:140px
+}
+.login h1, .register h1 {
+	color:#777
+}
+.login form, .register form {
+	margin-top:35px
+}
+.login form input, .register form input {
+	display:block;
+	margin-top:14px;
+	padding:7px;
+	width:21%;
+	border-radius:5px;
+	border:1px solid #e5e5e5;
+	outline:none
+}
+.login form input[type='submit'], .register form input[type='submit'] {
+	background:#57c66f;
+	border:1px solid #95F9AB;
+	color:#fff;
+	cursor:pointer;
+	width:22.5%
+}
+.login input[type='submit']:hover, .register input[type='submit']:hover {
+	background:#95f9ab
+}
+.login p, .register p {
+	margin-top:14px;
+	color:#777
+}
+.login p a, .register p a {
+	color:#57c66f;
+	text-decoration:none
+}
+
+/* The End of Login(index), Register Page */
+
+/* The Start of Chat Page */
+
+.chat-container {
+	width:50%;
+	background:#fff;
+	padding:20px;
+	margin:21px auto;
+	border-radius:8px
+}
+.chat-container .chat-box {
+	width:97%;
+	height:542px;
+	overflow:auto;
+	overflow-x:hidden
+}
+.chat-container .chat-box a {
+	text-decoration:none;
+	color:#fff;
+	background:#d9534f;
+	border:1px solid #d9534f;
+	border-radius:4px;
+	padding:7px;
+	position:relative;
+	top:8px
+}
+.chat-container .chat-box a:hover {
+	background:#C9302C
+}
+.chat-container .chat-box h1 {
+	color:#777;
+	text-align:center;
+	margin-bottom:16px;
+	margin-top:21px
+}
+.chat-container .chat-data {
+	width:100%;
+	padding:5px;
+	margin-bottom:5px;
+	border-bottom:1px solid #e5e5e5
+}
+.chat-container .chat-data .name {
+	font-weight:bold
+}
+.chat-container .chat-data .messages {
+	color:#666
+}
+.chat-container .chat-data .time {
+	float:right;
+	color:#962b2b;
+	padding-right:14px
+}
+.chat-container input[type='text'],.chat-container textarea,.chat-container input[type='submit'] {
+	width:100%;
+	height:40px;
+	border:1px solid #e5e5e5;
+	border-radius:5px;
+	padding-left:7px;
+	margin-bottom:7px
+}
+.chat-container textarea {
+	padding-top:7px;
+	margin-top:23px
+}
+.chat-container input[type='submit'] {
+	background:#57c66f;
+	color:#fff;
+	cursor:pointer;
+	width:101%
+}
+.chat-container input[type='submit']:hover {
+	background:#95f9ab
+}
+
+/* The End of Chat Page */
